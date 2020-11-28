@@ -8,7 +8,7 @@ public class AlarmTest {
 
     @Test
     void alarm_could_be_on() {
-        Alarm alarm = new Alarm(new Sensor());
+        Alarm alarm = new Alarm(new SimulatedSensor());
         alarm.check();
         assertTrue(alarm.isAlarmOn());
     }
