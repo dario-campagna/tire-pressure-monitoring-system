@@ -1,9 +1,4 @@
-# Template project for Software Development Methods assignments
+# Tire Pressure Monitoring System
 
-A template project for creating assignments for the DSSC Software Development Methods course.
-
-This template uses:
-
-- Gradle
-- Java
-- JUnit 5
+The `Alarm` class is designed to monitor tire pressure and set an alarm if the pressure falls outside of the expected range.
+The `Sensor` class provided for the example fakes the behaviour of a real tire sensor, providing random but realistic values.

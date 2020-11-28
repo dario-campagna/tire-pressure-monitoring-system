@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'dssc.assignment'
+group 'dssc.example'
 version '1.0'
 
 repositories {
